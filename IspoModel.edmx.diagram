@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dda4de2f87c94d0c8b6db5519e528bf5" Name="Diagram1">
+        <EntityTypeShape EntityType="ИСПОModel.disciplines" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ИСПОModel.groups" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ИСПОModel.specializations" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ИСПОModel.students" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ИСПОModel.sysdiagrams" Width="1.5" PointX="4.375" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ИСПОModel.teachers" Width="1.5" PointX="6.375" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="ИСПОModel.FK__disciplin__speci__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="ИСПОModel.FK__groups__speciali__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="ИСПОModel.FK__students__group___4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
