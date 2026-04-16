@@ -1,0 +1,40 @@
+﻿<Window x:Class="IspoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ИСПО - Институт СПО" Height="450" Width="700"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="🎓 ИСПО" FontSize="28" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="1" Text="Институт среднего профессионального образования" 
+                   FontSize="14" HorizontalAlignment="Center" Margin="0,0,0,30"/>
+
+        <Button x:Name="btnStudents" Grid.Row="2" Content="👨‍🎓 Студенты" 
+                Width="200" Height="45" Margin="0,5" Click="btnStudents_Click"/>
+
+        <Button x:Name="btnGroups" Grid.Row="3" Content="📚 Группы" 
+                Width="200" Height="45" Margin="0,5" Click="btnGroups_Click"/>
+
+        <Button x:Name="btnTeachers" Grid.Row="4" Content="👨‍🏫 Преподаватели" 
+                Width="200" Height="45" Margin="0,5" Click="btnTeachers_Click"/>
+
+        <Button x:Name="btnDisciplines" Grid.Row="5" Content="📖 Дисциплины" 
+                Width="200" Height="45" Margin="0,5" Click="btnDisciplines_Click"/>
+
+        <TextBlock Grid.Row="6" Text="© 2026 ИСПО - Все права защищены" 
+                   FontSize="11" Foreground="#888888" HorizontalAlignment="Center" 
+                   VerticalAlignment="Bottom" Margin="0,20,0,0"/>
+    </Grid>
+</Window>
